@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>skeletal/female_dwarf.dae</mesh>
+      <props>
+        <prop actor="props/biped/heads/female_dwarf_01.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Apron">
+      <textures>
+        <texture file="skeletal/dwarf_basic.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/biped/female_apron.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Chainmail">
+      <textures>
+        <texture file="skeletal/dwarf_chainmail.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Fur">
+      <textures>
+        <texture file="skeletal/dwarf_fur.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/dwarf_idle.xml"/>
+    <variant file="biped/dwarf_death_blood.xml"/>
+    <variant file="biped/dwarf_build_hammer.xml"/>
+    <variant file="biped/dwarf_walk.xml"/>
+    <variant file="biped/dwarf_gather_ore.xml"/>
+    <variant file="biped/dwarf_gather_rock.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/biped/helmets/dwarf_miner_candle.dae</mesh>
+    </variant>
+    <variant frequency="1" name="base2">
+      <mesh>props/biped/helmets/dwarf_miner_candle_02.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="props/biped/helmets/dwarf_miner_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="no-flame"/>
+    <variant frequency="1" name="flame">
+      <props>
+        <prop actor="particle/flame_candle.xml" attachpoint="flame"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

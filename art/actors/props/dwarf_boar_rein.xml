@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <animations>
+        <animation file="other/boar_rein_idle.dae" name="Idle" speed="100"/>
+      </animations>
+      <mesh>props/dwarf_boar_rein.dae</mesh>
+      <textures>
+        <texture file="structural/hele_siege.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

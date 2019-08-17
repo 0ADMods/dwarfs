@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="attack_melee">
+  <animations>
+    <animation file="biped/dwarf/attack_axe_01.dae" name="attack_melee" id="attack_axe_01" speed="200"/>
+    <animation file="biped/dwarf/attack_axe_02.dae" name="attack_melee" id="attack_axe_02" speed="50"/>
+    <animation file="biped/dwarf/attack_axe_03.dae" name="attack_melee" id="attack_axe_03" speed="100"/>
+  </animations>
+</variant>

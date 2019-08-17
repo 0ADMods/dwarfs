@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/biped/helmets/dwarf_miner.dae</mesh>
+      <textures>
+        <texture file="props/biped/helmets/dwarf_miner_01.png" name="baseTex"/>
+        <texture file="props/biped/helmets/dwarf_miner_norm.png" name="normTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="no-candle"/>
+    <variant frequency="3" name="candle">
+      <props>
+        <prop actor="props/biped/helmets/dwarf_miner_candle.xml" attachpoint="candle"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec_helmet.xml</material>
+</actor>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>skeletal/male_dwarf_armor.dae</mesh>
+      <props>
+        <prop actor="props/biped/capes/dwarf_base.xml" attachpoint="root"/>
+        <prop actor="props/biped/heads/dwarf_01.xml" attachpoint="head"/>
+        <prop actor="props/biped/helmets/dwarf_01.xml" attachpoint="helmet"/>
+        <prop actor="props/biped/weapons/dwarf_axe_01.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/dwarf_chainmail.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="helmet-01">
+      <props>
+        <prop actor="props/biped/helmets/dwarf_01.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="helmet-02">
+      <props>
+        <prop actor="props/biped/helmets/dwarf_02.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="helmet-03">
+      <props>
+        <prop actor="props/biped/helmets/dwarf_03.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/dwarf_idle_warrior.xml"/>
+    <variant file="biped/dwarf_build_hammer.xml"/>
+    <variant file="biped/dwarf_death_blood.xml">
+      <props>
+        <prop actor="props/biped/capes/dwarf_base.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant file="biped/dwarf_build.xml"/>
+    <variant file="biped/dwarf_walk_warrior.xml"/>
+    <variant file="biped/dwarf_attack_axe.xml"/>
+    <variant file="biped/dwarf_gather_rock.xml"/>
+    <variant file="biped/dwarf_gather_ore.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

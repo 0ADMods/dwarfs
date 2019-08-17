@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/biped/female_apron.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="skeletal/dwarf_apron.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="base-01">
+      <textures>
+        <texture file="skeletal/dwarf_apron_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/dwarf_idle.xml"/>
+    <variant file="biped/dwarf_death.xml"/>
+    <variant file="biped/dwarf_build.xml"/>
+    <variant file="biped/dwarf_walk.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

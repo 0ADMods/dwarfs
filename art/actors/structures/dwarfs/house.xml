@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="norm">
+      <textures>
+        <texture file="structural/dwarf_struct.png" name="baseTex"/>
+        <texture file="structural/dwarf_struct_norm.png" name="normTex"/>
+        <texture file="structural/dwarf_struct_spec.png" name="specTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="house-01">
+      <mesh>structural/dwarf_house_01.dae</mesh>
+      <props>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="props/dwarf_barrel_pile.xml" attachpoint="barrels" maxheight="20" minheight="-20"/>
+      </props>
+      <textures>
+        <texture file="structural/ao/dwarf_house_01.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house-02">
+      <mesh>structural/dwarf_house_02.dae</mesh>
+      <props>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="props/dwarf_barrel_mug.xml" attachpoint="barrel" maxheight="20" minheight="-20"/>
+      </props>
+      <textures>
+        <texture file="structural/ao/dwarf_house_02.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house-03">
+      <mesh>structural/dwarf_house_03.dae</mesh>
+      <props>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke01"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke02"/>
+      </props>
+      <textures>
+        <texture file="structural/ao/dwarf_house_03.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house-04">
+      <mesh>structural/dwarf_house_04.dae</mesh>
+      <props>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="props/dwarf_barrel_mug.xml" attachpoint="barrel" maxheight="20" minheight="-20"/>
+      </props>
+      <textures>
+        <texture file="structural/ao/dwarf_house_04.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/dwarf_pennant_pole.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death"/>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

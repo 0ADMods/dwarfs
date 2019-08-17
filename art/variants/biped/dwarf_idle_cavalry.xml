@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="idle" frequency="1">
+  <animations>
+    <animation file="biped/dwarf/idle_cavalry.dae" name="idle" id="idle1" frequency="10" speed="100"/>
+    <animation file="biped/dwarf/idle_cavalry.dae" name="idle" id="idle2" frequency="10" speed="100"/>
+    <animation file="biped/dwarf/idle_cavalry.dae" name="idle" id="idle3" frequency="10" speed="100"/>
+    <animation file="biped/dwarf/idle_cavalry.dae" name="idle" id="idle4" frequency="10" speed="100"/>
+  </animations>
+</variant>

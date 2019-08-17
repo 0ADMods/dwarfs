@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/dwarf_fortress">
+  <Obstruction>
+    <Static disable=""/>
+    <Obstructions>
+      <Back width="35" depth="17.5" z="-20.5"/>
+    </Obstructions>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/dwarfs/wall_fortress.xml</Actor>
+  </VisualActor>
+</Entity>

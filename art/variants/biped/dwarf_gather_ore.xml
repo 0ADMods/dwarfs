@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="gather_ore">
+  <animations>
+    <animation file="biped/dwarf/attack_axe_02.dae" name="gather_ore" speed="25"/>
+  </animations>
+  <props>
+    <prop actor="props/biped/weapons/dwarf_pickaxe_01.xml" attachpoint="weapon_R"/>
+    <prop attachpoint="weapon_R"/>
+    <prop attachpoint="shield"/>
+    <prop attachpoint="shield_arm"/>
+    <prop attachpoint="ammo"/>
+  </props>
+</variant>

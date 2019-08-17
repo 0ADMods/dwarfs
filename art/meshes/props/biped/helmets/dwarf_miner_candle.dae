@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Stanislas Daniel Claude Dolcini</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-02-21, commit time:10:41, hash:8928d99270f</authoring_tool>
+    </contributor>
+    <created>2018-04-08T11:03:51</created>
+    <modified>2018-04-08T11:03:51</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Material_008-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material_008-material" name="Material_008">
+      <instance_effect url="#Material_008-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="candle-mesh" name="candle">
+      <mesh>
+        <source id="candle-mesh-positions">
+          <float_array id="candle-mesh-positions-array" count="72">-38.56777 -13.1362 -5.229897 5.268772 -36.24387 0.7596436 -26.35834 30.52207 0.7593823 19.02113 36.24388 0.7597256 38.56777 -5.019791 0.7598877 -26.85852 -10.52156 16.42217 4.145601 -27.4938 16.42241 -20.29137 24.0935 16.42221 14.77148 28.5145 16.42247 29.87436 -3.368233 16.4226 -26.85852 -10.52156 56.6331 4.145601 -27.4938 56.63335 -20.29137 24.0935 56.63314 14.77148 28.5145 56.63341 29.87436 -3.368233 56.63354 -0.8247037 -0.8071289 48.12144 -4.843061 -0.5247498 69.88119 0.8756929 -3.655304 69.88119 -1.916403 4.921036 69.88119 3.906061 1.733704 69.88119 -4.843062 -0.5247498 36.84164 0.8756929 -3.655304 36.84173 -1.916403 4.921036 36.84166 3.906062 1.733704 36.8418</float_array>
+          <technique_common>
+            <accessor source="#candle-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="candle-mesh-normals">
+          <float_array id="candle-mesh-normals-array" count="72">0.9427421 -0.1789042 0.2814797 0.08957409 -0.729228 0.6783828 0.1206116 -0.9522277 0.2805624 0.4189959 0.7639833 0.4906852 0.8553916 -0.162362 0.4918777 -0.6158529 0.6104205 0.4981087 -0.8639926 -0.4241529 0.2713138 -0.6570129 0.6994954 0.281141 0.07440525 -0.8744912 0.4793007 0.4613009 0.8417255 0.2805345 -0.8119498 -0.3331421 0.4793266 -0.6641556 -0.3182221 0.6764852 0.01333677 0.03537154 0.9992853 -0.5126952 0.539888 0.6675812 0.3596715 0.6549776 0.6645607 0.7292038 -0.1430757 0.6691719 -0.2323111 0.7830584 0.5769326 0.2245922 -0.7845619 0.5779457 0.7853745 0.224833 0.576747 -0.7825065 -0.2321273 0.5777547 0.2752209 -0.9613811 0 -0.2844094 0.958703 0 0.9613811 0.2752209 0 -0.958703 -0.2844094 0</float_array>
+          <technique_common>
+            <accessor source="#candle-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="candle-mesh-map-0">
+          <float_array id="candle-mesh-map-0-array" count="210">0.5552668 0.04043 0.6013882 0.1047632 0.60859 0.04203748 0.7923628 0.05587226 0.8353635 0.09797012 0.8505871 0.07861143 0.7344151 0.03902524 0.6680255 0.04764038 0.7274146 0.06373882 0.6085793 0.01670902 0.5552668 0.04043 0.60859 0.04203748 0.7923628 0.05587226 0.7274146 0.06373882 0.7839855 0.08008599 0.6085793 0.01670902 0.6680255 0.04764038 0.6771566 0.01009857 0.6811347 0.1860372 0.7288808 0.1813689 0.7101748 0.1298948 0.7839855 0.08008599 0.7101748 0.1298948 0.7674876 0.1422177 0.60859 0.04203748 0.6549289 0.113986 0.6680255 0.04764038 0.8353635 0.09797012 0.7674876 0.1422177 0.8189457 0.156622 0.7274146 0.06373882 0.6549289 0.113986 0.7101748 0.1298948 0.7769936 0.1997569 0.7288808 0.1813689 0.7247998 0.2274661 0.7101748 0.1298948 0.7288808 0.1813689 0.7674876 0.1422177 0.7247998 0.2274661 0.7288808 0.1813689 0.6811347 0.1860372 0.7674876 0.1422177 0.7288808 0.1813689 0.7769936 0.1997569 0.2859701 0.09476679 0.2716594 0.1082382 0.2715059 0.09476679 0.2994419 0.09476679 0.3136485 0.02277147 0.3136485 0.09476679 0.2859701 0.02277129 0.2994419 0.09476679 0.2859701 0.09476679 0.2580336 0.09476679 0.2715058 0.02277159 0.2715059 0.09476679 0.2715058 0.02277159 0.2859701 0.09476679 0.2715059 0.09476679 0.5552668 0.04043 0.549441 0.09965342 0.6013882 0.1047632 0.7923628 0.05587226 0.7839855 0.08008599 0.8353635 0.09797012 0.7344151 0.03902524 0.6771566 0.01009857 0.6680255 0.04764038 0.6085793 0.01670902 0.5479803 0.01768404 0.5552668 0.04043 0.7923628 0.05587226 0.7344151 0.03902524 0.7274146 0.06373882 0.6085793 0.01670902 0.60859 0.04203748 0.6680255 0.04764038 0.7839855 0.08008599 0.7274146 0.06373882 0.7101748 0.1298948 0.60859 0.04203748 0.6013882 0.1047632 0.6549289 0.113986 0.8353635 0.09797012 0.7839855 0.08008599 0.7674876 0.1422177 0.7274146 0.06373882 0.6680255 0.04764038 0.6549289 0.113986 0.2859701 0.09476679 0.285866 0.1082382 0.2716594 0.1082382 0.2994419 0.09476679 0.2994419 0.02277123 0.3136485 0.02277147 0.2859701 0.02277129 0.2994419 0.02277123 0.2994419 0.09476679 0.2580336 0.09476679 0.2580336 0.02277147 0.2715058 0.02277159 0.2715058 0.02277159 0.2859701 0.02277129 0.2859701 0.09476679</float_array>
+          <technique_common>
+            <accessor source="#candle-mesh-map-0-array" count="105" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="candle-mesh-vertices">
+          <input semantic="POSITION" source="#candle-mesh-positions"/>
+        </vertices>
+        <triangles material="Material_008-material" count="35">
+          <input semantic="VERTEX" source="#candle-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#candle-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#candle-mesh-map-0" offset="2" set="0"/>
+          <p>9 0 0 11 1 1 6 2 2 3 3 3 9 0 4 4 4 5 2 5 6 5 6 7 7 7 8 1 8 9 9 0 10 6 2 11 3 3 12 7 7 13 8 9 14 1 8 15 5 6 16 0 10 17 10 11 18 15 12 19 12 13 20 8 9 21 12 13 22 13 14 23 6 2 24 10 11 25 5 6 26 9 0 27 13 14 28 14 15 29 7 7 30 10 11 31 12 13 32 14 15 33 15 12 34 11 1 35 12 13 36 15 12 37 13 14 38 11 1 39 15 12 40 10 11 41 13 14 42 15 12 43 14 15 44 18 16 45 17 17 46 19 18 47 16 19 48 21 20 49 17 17 50 22 21 51 16 19 52 18 16 53 17 17 54 23 22 55 19 18 56 23 22 57 18 16 58 19 18 59 9 0 60 14 15 61 11 1 62 3 3 63 8 9 64 9 0 65 2 5 66 0 10 67 5 6 68 1 8 69 4 4 70 9 0 71 3 3 72 2 5 73 7 7 74 1 8 75 6 2 76 5 6 77 8 9 78 7 7 79 12 13 80 6 2 81 11 1 82 10 11 83 9 0 84 8 9 85 13 14 86 7 7 87 5 6 88 10 11 89 18 16 90 16 19 91 17 17 92 16 19 93 20 23 94 21 20 95 22 21 96 20 23 97 16 19 98 17 17 99 21 20 100 23 22 101 23 22 102 22 21 103 18 16 104</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="infantry" name="infantry">
+      <node id="candle" name="candle" type="NODE">
+        <matrix sid="transform">0.003019426 0 0 0 0 0.003046521 0 0 0 0 0.003093519 0 0 0 0 1</matrix>
+        <instance_geometry url="#candle-mesh" name="candle">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_008-material" target="#Material_008-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <node id="prop_flame" name="prop_flame" type="NODE">
+          <matrix sid="transform">331.1888 0 0 -0.3349177 0 328.2433 0 -0.2945497 0 0 323.2564 62.74415 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#infantry"/>
+  </scene>
+</COLLADA>

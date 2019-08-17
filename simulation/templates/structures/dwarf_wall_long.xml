@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall_long">
+  <Footprint>
+    <Square width="40" depth="10.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>8</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>-8</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>4</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>-4</X>
+        <Y>11.6</Y>
+        <Z>0</Z>
+      </Archer5>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>dwarf</Civ>
+    <SelectionGroupName>structures/dwarf_wallset_stone</SelectionGroupName>
+    <SpecificName>Veggur</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="38.0" depth="8.0"/>
+  </Obstruction>
+  <Upgrade>
+    <Fortress>
+      <Entity>structures/{civ}_wall_fortress</Entity>
+      <Tooltip>This will allow you to improve your defense.</Tooltip>
+      <Cost>
+        <stone>500</stone>
+      </Cost>
+      <Time>10</Time>
+      <CheckPlacementRestrictions/>
+    </Fortress>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/dwarfs/wall_long.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>34.9</Length>
+  </WallPiece>
+</Entity>

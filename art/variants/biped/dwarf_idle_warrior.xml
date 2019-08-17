@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="idle" frequency="1">
+  <animations>
+    <animation file="biped/dwarf/idle_carry_weapon_01.dae" name="idle" id="idle1" frequency="100" speed="100"/>
+  </animations>
+</variant>

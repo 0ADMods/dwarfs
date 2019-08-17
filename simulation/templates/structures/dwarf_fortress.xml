@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Footprint>
+    <Square width="35.0" depth="35.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>dwarf</Civ>
+    <SpecificName>Vígi</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="35.0" depth="35.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/dwarfs/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>28.5</Length>
+    <Indent>6.7</Indent>
+  </WallPiece>
+</Entity>

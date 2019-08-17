@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="Walk">
+  <animations>
+    <animation file="biped/dwarf/walk.dae" name="Walk" speed="35"/>
+  </animations>
+</variant>

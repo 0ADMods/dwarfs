@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="norm">
+      <mesh>structural/dwarf_storehouse.dae</mesh>
+      <textures>
+        <texture file="structural/dwarf_struct.png" name="baseTex"/>
+        <texture file="structural/dwarf_struct_norm.png" name="normTex"/>
+        <texture file="structural/dwarf_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/dwarf_storehouse.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="props/dwarf_box_big_sack_pile.xml" attachpoint="box02" maxheight="20" minheight="-20"/>
+        <prop actor="props/dwarf_box_small.xml" attachpoint="box01" maxheight="20" minheight="-20"/>
+        <prop actor="props/dwarf_barrel_mug.xml" attachpoint="barrel01" maxheight="20" minheight="-20"/>
+        <prop actor="props/dwarf_barrel.xml" attachpoint="barrel02" maxheight="20" minheight="-20"/>
+        <prop actor="props/dwarf_cart.xml" attachpoint="cart" maxheight="20" minheight="-20"/>
+        <prop actor="props/dwarf_sack_ore.xml" attachpoint="sack" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/decals/celt_tavern.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

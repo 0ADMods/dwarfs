@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant file="biped/dwarf_build.xml">
+  <props>
+    <prop actor="props/biped/dwarf_build_hammer.xml" attachpoint="weapon_R"/>
+  </props>
+</variant>

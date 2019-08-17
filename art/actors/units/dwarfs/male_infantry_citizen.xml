@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>skeletal/dwarf.dae</mesh>
+      <props>
+        <prop actor="props/biped/heads/dwarf_01.xml" attachpoint="head"/>
+        <prop actor="props/biped/male_apron.xml" attachpoint="root"/>
+        <prop actor="props/biped/weapons/dwarf_pickaxe_01.xml" attachpoint="weapon_R"/>
+        <prop actor="props/biped/dwarf_resource_barrel.xml" attachpoint="back"/>
+      </props>
+      <textures>
+        <texture file="skeletal/dwarf_basic.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Miner">
+      <props>
+        <prop actor="props/biped/helmets/dwarf_miner.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Miner-02">
+      <props>
+        <prop actor="props/biped/helmets/dwarf_miner_02.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/dwarf_idle_warrior.xml"/>
+    <variant file="biped/dwarf_build_hammer.xml"/>
+    <variant file="biped/dwarf_death_blood.xml"/>
+    <variant file="biped/dwarf_walk_warrior.xml"/>
+    <variant file="biped/dwarf_attack_axe.xml"/>
+    <variant file="biped/dwarf_gather_ore.xml"/>
+    <variant file="biped/dwarf_gather_rock.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

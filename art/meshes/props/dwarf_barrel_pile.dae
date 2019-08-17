@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.80.41 commit date:2019-01-11, commit time:23:51, hash:ce3475f74794</authoring_tool>
+    </contributor>
+    <created>2019-01-12T20:18:08</created>
+    <modified>2019-01-12T20:18:08</modified>
+    <unit name="inch" meter="0.0254"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="barrels_pivot-mesh" name="barrels_pivot">
+      <mesh>
+        <source id="barrels_pivot-mesh-positions">
+          <float_array id="barrels_pivot-mesh-positions-array" count="9">-0.3759313 -0.3759313 -22.72427 0.3759313 -0.3759313 -22.72427 -0.3759313 0.3759313 -22.72427</float_array>
+          <technique_common>
+            <accessor source="#barrels_pivot-mesh-positions-array" count="3" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="barrels_pivot-mesh-normals">
+          <float_array id="barrels_pivot-mesh-normals-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#barrels_pivot-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="barrels_pivot-mesh-map-0">
+          <float_array id="barrels_pivot-mesh-map-0-array" count="6">1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#barrels_pivot-mesh-map-0-array" count="3" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="barrels_pivot-mesh-vertices">
+          <input semantic="POSITION" source="#barrels_pivot-mesh-positions"/>
+        </vertices>
+        <polylist count="1">
+          <input semantic="VERTEX" source="#barrels_pivot-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#barrels_pivot-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#barrels_pivot-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 </vcount>
+          <p>1 0 0 2 0 1 0 0 2</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="barrels_pivot" name="barrels_pivot" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#barrels_pivot-mesh" name="barrels_pivot"/>
+        <node id="prop_barrel_01" name="prop_barrel_01" type="NODE">
+          <matrix sid="transform">6.04854e-9 -4.20505e-10 1 -1.127148 0.1383745 0.99038 -4.20505e-10 -0.03055316 -0.99038 0.1383745 6.04854e-9 2.034816 0 0 0 1</matrix>
+        </node>
+        <node id="prop_barrel_02" name="prop_barrel_02" type="NODE">
+          <matrix sid="transform">7.22597e-9 -6.01404e-10 1 -1.127148 0.165311 0.9862415 -6.01404e-10 -0.7300648 -0.9862415 0.165311 7.22597e-9 0.741724 0 0 0 1</matrix>
+        </node>
+        <node id="prop_barrel_03" name="prop_barrel_03" type="NODE">
+          <matrix sid="transform">6.04854e-9 -4.20505e-10 1 -1.127148 0.1383745 0.99038 -4.20505e-10 0.7036602 -0.99038 0.1383745 6.04854e-9 0.741724 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

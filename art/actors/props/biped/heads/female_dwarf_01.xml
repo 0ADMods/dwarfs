@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Beard-01">
+      <mesh>props/biped/heads/female_dwarf_01.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Beard-02">
+      <mesh>props/biped/heads/female_dwarf_02.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Beard-03">
+      <mesh>props/biped/heads/female_dwarf_03.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Beard-04">
+      <mesh>props/biped/heads/female_dwarf_04.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Red">
+      <textures>
+        <texture file="props/biped/heads/female_dwarf_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Brown">
+      <textures>
+        <texture file="props/biped/heads/female_dwarf_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Black">
+      <textures>
+        <texture file="props/biped/heads/female_dwarf_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gold">
+      <textures>
+        <texture file="props/biped/heads/female_dwarf_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="New">
+      <textures>
+        <texture file="props/biped/heads/female_dwarf_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

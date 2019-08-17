@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/dwarf_foundress_statue.dae</mesh>
+      <textures>
+        <texture file="props/dwarf_civic_center_statue.png" name="baseTex"/>
+        <texture file="props/dwarf_civic_center_statue_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_spec.xml</material>
+</actor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee>
+      <MaxRange>2.5</MaxRange>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>dwarf</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/athen_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Shield Maiden</GenericName>
+    <SpecificName>Skjöldur mær</SpecificName>
+    <Icon>units/athen_infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/dwarfs/female_infantry_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

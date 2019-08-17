@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/biped/capes/dwarf_base.dae</mesh>
+      <textures>
+        <texture file="props/biped/capes/dwarf_squares.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/dwarf_idle_warrior.xml"/>
+    <variant file="biped/dwarf_death.xml"/>
+    <variant file="biped/dwarf_build.xml"/>
+    <variant file="biped/dwarf_walk_warrior.xml"/>
+    <variant file="biped/dwarf_attack_axe.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
