@@ -1,8 +1,8 @@
 {
-	"name": "dwarves",
-	"version": "0.0.23",
-	"label": "0 A.D. Empires Ascendant",
-	"url": "play0ad.com",
-	"description": "A free, open-source, historical RTS game.",
-	"dependencies": []
+	"name": "dwarfs",
+	"version": "1.0.0",
+	"label": "Dwarfs",
+	"url": "https://github.com/0ADMods/dwarfs",
+	"description": "TBD.",
+	"dependencies": ["0ad=0.0.24"]
 }

@@ -17,7 +17,7 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/dwarfs/corral.xml</Actor>
+    <Actor>structures/dwarf/corral.xml</Actor>
     <FoundationActor>structures/fndn_3x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_swordsman">
+  <Identity>
+    <Civ>dwarf</Civ>
+    <Lang>greek</Lang>
+    <Phenotype>female</Phenotype>
+    <SelectionGroupName>units/dwarf_cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Cavalry Axeman</GenericName>
+    <SpecificName>Riddaraliðsmaður</SpecificName>
+    <Icon>units/dwarf_cavalry_axeman_b.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/dwarf/{phenotype}_cavalry_axeman_b.xml</Actor>
+  </VisualActor>
+</Entity>

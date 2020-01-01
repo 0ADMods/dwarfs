@@ -6,15 +6,15 @@
     </Melee>
   </Attack>
   <Identity>
-    <Civ>athen</Civ>
+    <Civ>dwarf</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/athen_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Athenian Hoplite</GenericName>
-    <SpecificName>Hoplítēs Athēnaîos</SpecificName>
-    <Icon>units/athen_infantry_spearman.png</Icon>
+    <SelectionGroupName>units/dwarf_infantry_axeman_b</SelectionGroupName>
+    <GenericName>Infantry Axeman</GenericName>
+    <SpecificName>Fótgönguliði</SpecificName>
+    <Icon>units/dwarf_infantry_axeman_b.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/dwarfs/male_infantry_axeman_b.xml</Actor>
+    <Actor>units/dwarf/male_infantry_axeman_b.xml</Actor>
   </VisualActor>
 </Entity>

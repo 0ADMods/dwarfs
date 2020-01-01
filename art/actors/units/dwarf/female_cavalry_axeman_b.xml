@@ -15,7 +15,7 @@
         <prop actor="props/dwarf_boar_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/dwarf_boar_saddle.xml" attachpoint="back"/>
         <prop actor="props/dwarf_boar_rein.xml" attachpoint="rein"/>
-        <prop actor="units/dwarfs/female_cavalry_axeman_r.xml" attachpoint="back"/>
+        <prop actor="units/dwarf/female_cavalry_axeman_r.xml" attachpoint="back"/>
       </props>
       <textures>
         <texture file="skeletal/animal_boar_01.png" name="baseTex"/>

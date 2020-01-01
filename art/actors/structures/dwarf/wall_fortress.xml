@@ -8,7 +8,7 @@
       </animations>
       <mesh>structural/dwarf_wall_fortress.dae</mesh>
       <props>
-        <prop actor="structures/dwarfs/fortress.xml" attachpoint="fortress"/>
+        <prop actor="structures/dwarf/fortress.xml" attachpoint="fortress"/>
       </props>
       <textures>
         <texture file="null_white.dds" name="baseTex"/>

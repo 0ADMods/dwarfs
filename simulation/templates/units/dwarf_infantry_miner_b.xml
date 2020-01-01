@@ -8,13 +8,13 @@
   <Identity>
     <Civ>dwarf</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/athen_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Shield Maiden</GenericName>
-    <SpecificName>Skjöldur mær</SpecificName>
-    <Icon>units/athen_infantry_spearman.png</Icon>
+    <SelectionGroupName>units/dwarf_infantry_miner_b</SelectionGroupName>
+    <GenericName>Miner</GenericName>
+    <SpecificName>Námumaður</SpecificName>
+    <Icon>units/dwarf_infantry_miner.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/dwarfs/female_infantry_citizen.xml</Actor>
+    <Actor>units/dwarf/{phenotype}_infantry_citizen.xml</Actor>
   </VisualActor>
 </Entity>

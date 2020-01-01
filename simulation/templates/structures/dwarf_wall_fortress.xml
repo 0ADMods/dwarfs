@@ -7,6 +7,6 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/dwarfs/wall_fortress.xml</Actor>
+    <Actor>structures/dwarf/wall_fortress.xml</Actor>
   </VisualActor>
 </Entity>

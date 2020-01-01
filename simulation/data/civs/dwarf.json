@@ -1,0 +1,40 @@
+{
+	"Code": "dwarf",
+	"Culture": "TBD.",
+	"Name": "Dwarfs",
+	"Emblem": "session/portraits/emblems/emblem_dwarfs.png",
+	"History": "TBD.",
+	"Music": [],
+	"Factions": [
+		{
+			"Name": "Dwarfs",
+			"Description": "A proud and very crafty folk.",
+			"Technologies": [
+			],
+			"Heroes": [
+			]
+		}
+	],
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"WallSets": [],
+	"StartEntities": [],
+	"Formations": [],
+	"AINames": [
+		"Alfodgraren Onyxfoot",
+		"Daremmehulda Orehorn",
+		"Argohilda Jadebelt",
+		"Khourun Barrelaxe",
+		"Yoldrec Shadowgrog",
+		"Lorfaic Mudblade"
+	],
+	"SkirmishReplacements": {
+		"skirmish/structures/default_civil_centre": "structures/{civ}_civic_center",
+		"skirmish/units/default_support_female_citizen": "units/{civ}_infantry_citizen",
+		"skirmish/units/default_cavalry": "units/{civ}_cavalry_axeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/{civ}_infantry_miner_b",
+		"skirmish/units/default_infantry_melee_b": "units/{civ}_infantry_miner_b"
+	},
+	"SelectableInGameSetup": true
+}

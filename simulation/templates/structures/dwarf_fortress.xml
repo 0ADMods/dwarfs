@@ -12,7 +12,7 @@
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/dwarfs/fortress.xml</Actor>
+    <Actor>structures/dwarf/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>28.5</Length>

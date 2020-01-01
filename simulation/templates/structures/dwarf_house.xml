@@ -5,6 +5,6 @@
     <SpecificName>Hús</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/dwarfs/house.xml</Actor>
+    <Actor>structures/dwarf/house.xml</Actor>
   </VisualActor>
 </Entity>
